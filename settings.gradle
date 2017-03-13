@@ -1,0 +1,3 @@
+include ':app'
+include(':PlayUtils')
+project(':PlayUtils').projectDir = new File('../../Utils/PlayPpUtils/app');
